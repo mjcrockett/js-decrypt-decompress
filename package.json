@@ -4,7 +4,7 @@
     "description": "Decrypt and decompress with JS",
     "type": "module",
     "scripts": {
-        "run": "node decompress.js"
+        "decompress": "node decompress.js"
     },
     "author": "",
     "license": "ISC",

@@ -5,6 +5,6 @@ const gzipedData = Buffer.from("H4sIAAAAAAAEAO2YUW/aMBDHv0rkl21SNtmhBMYbpK1WqYWs
 
 console.log('gzipeddata', gzipedData);
 const ungzipedData = ungzip(gzipedData);
+const data = new TextDecoder().decode(ungzipedData);
 
-
-console.log('ungzipped data', new TextDecoder().decode(ungzipedData));
+console.log('ungzipped data', JSON.parse(data, null, 2));
