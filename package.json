@@ -1,0 +1,14 @@
+{
+    "name": "js-decrypt-decompress",
+    "version": "1.0.0",
+    "description": "Decrypt and decompress with JS",
+    "type": "module",
+    "scripts": {
+        "run": "node decompress.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "pako": "^2.1.0"
+    }
+}
